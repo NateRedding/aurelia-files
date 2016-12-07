@@ -1,4 +1,4 @@
-System.register([], function (_export) {
+System.register(["./attributes/files-attribute"], function (_export) {
     "use strict";
 
     _export("configure", configure);
@@ -8,7 +8,7 @@ System.register([], function (_export) {
     }
 
     return {
-        setters: [],
+        setters: [function (_attributesFilesAttribute) {}],
         execute: function () {}
     };
 });

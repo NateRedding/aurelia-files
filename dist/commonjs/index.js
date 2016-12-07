@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.configure = configure;
 
+require("./attributes/files-attribute");
+
 function configure(aurelia) {
     aurelia.globalResources("./attributes/files-attribute");
 }
